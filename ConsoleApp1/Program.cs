@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using PasswordGenerator;
+using System; 
 
 Console.WriteLine("Hello, World!");
 
@@ -20,6 +21,7 @@ checked
     number1 += 1;
 }
 
-int b = 1; 
+int b = 1;
+bool isWorking = true; 
 
 Console.WriteLine(number); 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhizhenyu/code/dotnet_training/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/Users/zhizhenyu/code/dotnet_training/graphql_demo_app/graphql_demo_app.csproj": {}
   },
   "projects": {
-    "/Users/zhizhenyu/code/dotnet_training/ConsoleApp1/ConsoleApp1.csproj": {
+    "/Users/zhizhenyu/code/dotnet_training/graphql_demo_app/graphql_demo_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhizhenyu/code/dotnet_training/ConsoleApp1/ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "/Users/zhizhenyu/code/dotnet_training/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/Users/zhizhenyu/code/dotnet_training/graphql_demo_app/graphql_demo_app.csproj",
+        "projectName": "graphql_demo_app",
+        "projectPath": "/Users/zhizhenyu/code/dotnet_training/graphql_demo_app/graphql_demo_app.csproj",
         "packagesPath": "/Users/zhizhenyu/.nuget/packages/",
-        "outputPath": "/Users/zhizhenyu/code/dotnet_training/ConsoleApp1/obj/",
+        "outputPath": "/Users/zhizhenyu/code/dotnet_training/graphql_demo_app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zhizhenyu/.nuget/NuGet/NuGet.Config"
@@ -44,21 +44,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[15.1.11, )"
+            },
+            "HotChocolate.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[15.1.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            },
-            "PasswordGenerator": {
-              "target": "Package",
-              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -73,6 +69,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
